@@ -3,7 +3,14 @@ function myKeycode(event) {
     var code = event.code;
     var which = event.which;
 
-    document.getElementById('keycode').innerHTML = 'The key is ' + key;
-    document.getElementById('keycode').innerHTML = code;
-    document.getElementById('keycode').innerHTML = which;
+    document.getElementById('keycode').innerHTML = 'Key: ' + key + ' Code: ' + code + ' Unicode: ' + which;
+}
+
+return myKeycode = 'h ' + key + ' keyH ' + code + 72 + which, 
+
+module.exports = {
+    myKeycode,
+    key,
+    code,
+    which
 }

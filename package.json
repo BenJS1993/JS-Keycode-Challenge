@@ -1,0 +1,22 @@
+{
+  "name": "jskeycode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenJS1993/JS-Keycode-Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenJS1993/JS-Keycode-Challenge/issues"
+  },
+  "homepage": "https://github.com/BenJS1993/JS-Keycode-Challenge#readme",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
