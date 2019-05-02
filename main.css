@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-    font-size: 250px;
+    font-size: 300px;
 }
 
 .boxWrapper {
@@ -40,12 +40,17 @@ h2 {
 .eventBox {
     background: crimson;
     border: solid 25px crimson;
-    border-style: outset;
+    border-style: groove;
     border-radius: 25px;
     width: 20%;
     margin: 10px;
     text-align: center;
     vertical-align: text-top;
+    box-shadow: 5px 10px;
+}
+
+.eventBox:hover {
+    opacity: 0.8;
 }
 
 p {
