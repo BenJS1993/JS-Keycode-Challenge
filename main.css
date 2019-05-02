@@ -1,18 +1,56 @@
-body {
-    height: 1000px;
+* {
+    font-family: 'Gugi', cursive;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
     background-image: linear-gradient(to bottom left, purple, dodgerblue);
+    text-align: center;
+}
+
+#keycodeTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1 {
     text-align: center;
     font-size: 70px;
-    font-family: 'Hanalei Fill', cursive;
+}
+
+h2 {
+    font-size: 250px;
+}
+
+.boxWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 70px;
+}
+
+.eventBox {
+    background: crimson;
+    border: solid 25px crimson;
+    border-style: outset;
+    border-radius: 25px;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+    vertical-align: text-top;
 }
 
 p {
     text-align: center;
     font-size: 50px;
-    font-family: 'Hanalei Fill', cursive;
 }
 
 input {
@@ -21,4 +59,8 @@ input {
     padding: 1em;
     margin: auto;
     text-align: center;
+}
+
+.showKeycode {
+    display: none;
 }

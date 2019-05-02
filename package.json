@@ -1,7 +1,6 @@
 {
   "name": "jskeycode",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "jest"
@@ -18,5 +17,7 @@
   "homepage": "https://github.com/BenJS1993/JS-Keycode-Challenge#readme",
   "devDependencies": {
     "jest": "^24.1.0"
-  }
+  },
+  "dependencies": {},
+  "description": ""
 }
