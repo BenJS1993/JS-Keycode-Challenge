@@ -19,11 +19,19 @@ html, body {
 
 h1 {
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 h2 {
-    font-size: 300px;
+    font-size: 250px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .boxWrapper {
@@ -39,10 +47,10 @@ h2 {
 
 .eventBox {
     background: crimson;
-    border: solid 25px crimson;
+    border: solid 10px crimson;
     border-style: groove;
     border-radius: 25px;
-    width: 20%;
+    width: 10%;
     margin: 10px;
     text-align: center;
     vertical-align: text-top;
@@ -55,7 +63,7 @@ h2 {
 
 p {
     text-align: center;
-    font-size: 50px;
+    font-size: 15px;
 }
 
 input {
