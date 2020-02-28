@@ -30,13 +30,18 @@ h1 {
     border: 5px solid;
     border-radius: 10px;
     box-shadow: 5px 10px;
+    width: 75%;
+    justify-self: center;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 h2 {
     font-size: 250px;
     text-align: center;
-    justify-content: center;
-    margin: 0 auto;
+    margin: 0 0 0 0, auto;
 }
 
 h3 {
