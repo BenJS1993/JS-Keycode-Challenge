@@ -3,10 +3,10 @@ const keycodeGenerator = document.getElementById('keycodeGenerator');
 const head = document.getElementById('keycode');
 
 function myKeycode(event) {
-    var key = event.key;
-    var location = event.location;
-    var which = event.which;
-    var code = event.code;
+    let key = event.key;
+    let location = event.location;
+    let which = event.which;
+    let code = event.code;
 
     head.textContent = which;
     
@@ -20,3 +20,15 @@ function myKeycode(event) {
     keycodeTitle.remove();
 }
 
+let touchElement = document.getElementById('keycodeButton');
+
+touchElement.addEventListener('touchstart', startTouch, false);
+touchElement.addEventListener('touchend', endTouch, false);
+
+function startTouch(e) {
+    let touch = e.touches
+}
+
+function endTouch(e) {
+    
+}
