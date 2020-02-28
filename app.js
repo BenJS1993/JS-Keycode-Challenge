@@ -26,9 +26,9 @@ touchElement.addEventListener('touchstart', startTouch, false);
 touchElement.addEventListener('touchend', endTouch, false);
 
 function startTouch(e) {
-    let touch = e.touches
+    let touch = e.touches;
 }
 
 function endTouch(e) {
-    
+
 }
