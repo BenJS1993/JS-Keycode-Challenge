@@ -1,7 +1,6 @@
 const keycodeTitle = document.getElementById('keycodeTitle');
 const keycodeGenerator = document.getElementById('keycodeGenerator');
 const head = document.getElementById('keycode');
-const touch = document.getElementById('keycodeTouch');
 
 function myKeycode(event) {
     var key = event.key;
@@ -15,7 +14,9 @@ function myKeycode(event) {
     document.getElementById('eventLocation').innerHTML = location;
     document.getElementById('eventCode').innerHTML = code;
     document.getElementById('eventWhich').innerHTML = which;
+    document.getElementById('keycodeButton').ontouchstart = myKeycode;
 
     keycodeGenerator.classList.remove('showKeycode');
     keycodeTitle.remove();
 }
+

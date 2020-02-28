@@ -32,10 +32,6 @@ h1 {
     box-shadow: 5px 10px;
 }
 
-h1:hover {
-    cursor: pointer;
-}
-
 h2 {
     font-size: 250px;
     text-align: center;
