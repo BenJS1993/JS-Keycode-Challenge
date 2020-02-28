@@ -1,5 +1,6 @@
 * {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Gugi', sans-serif;
+    font-weight: bolder;
 }
 
 html, body {
@@ -38,10 +39,20 @@ h1 {
     justify-content: center;
 }
 
+#keycodeTitle {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#keycodeNum {
+    font-size: 250px;
+    font-weight: bolder;
+}
+
 h2 {
     font-size: 250px;
     text-align: center;
-    margin: 0 0 0 0, auto;
+    margin: auto;
 }
 
 h3 {
