@@ -1,5 +1,6 @@
 const keycodeTitle = document.getElementById('keycodeTitle');
 const keycodeGenerator = document.getElementById('keycodeGenerator');
+const mobileTouch = document.querySelector('#keycodeButton');
 const head = document.getElementById('keycode');
 
 function myKeycode(event) {
@@ -20,15 +21,15 @@ function myKeycode(event) {
     keycodeTitle.remove();
 }
 
-let touchElement = document.getElementById('keycodeButton');
+document.addEventListener('touchstart', e => {
+    if (document.querySelector('.keycodeButton') !== null) return;
+    if (e.target.tagName === 'BUTTON') return;
 
-touchElement.addEventListener('touchstart', startTouch, false);
-touchElement.addEventListener('touchend', endTouch, false);
+    const input = document.createElement('input');
+    input.setAttribute('type', 'text');
+    mobileTouch.appendChild('input');
 
-function startTouch(e) {
-    let touch = e.touches;
-}
-
-function endTouch(e) {
-
-}
+    setTimeout(() => {
+        input.focus();
+    }, 100);
+});
